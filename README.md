@@ -1,3 +1,5 @@
+<img width="862" height="512" alt="Rplot 002" src="https://github.com/user-attachments/assets/14971d7e-dc58-465e-ab8a-ab3c0a6d895b" />
+<img width="862" height="512" alt="Rplot 001" src="https://github.com/user-attachments/assets/8150dc12-0c60-47e5-ad2b-21071ccd1053" />
 # Automated Exploratory Data Analysis (EDA) Pipeline in R
 
 ## Overview
