@@ -1,0 +1,9 @@
+State,Region,Major_Cultivars,Avg_Temp_C,Avg_Humidity_Pct,Annual_Rainfall_mm,Soil_Type,Soil_pH,Avg_Wind_Speed_kmh,Avg_Yield_Tons_Ha,Major_Disease_Threat
+Andhra Pradesh,Coastal Plain,"Grand Naine, Karpura Chakkarakeli, Robusta",31,75,1000,Red Loamy & Alluvial,7.0,14,57.5,Sigatoka Leaf Spot
+Maharashtra,Western Belt,"Grand Naine, Basrai, Shrimanti",29,62,825,Heavy Black Cotton Soil,7.4,11,62.5,Fusarium Wilt (TR4)
+Gujarat,South-Central,"Grand Naine, Robusta, Mahalaxmi",29,67,1000,Deep Black & Alluvial,7.6,16,67.5,Banana Bunchy Top
+Tamil Nadu,Cauvery Delta,"Grand Naine, Red Banana, Nendran, Rasthali, Poovan",30,79,1125,Clay Loam & Red Soil,6.7,12,51.5,Fusarium Wilt
+Karnataka,Southern Plateau,"Grand Naine, Elakki (Yelakki), Robusta",27,70,1000,Red Sandy Loam,6.7,10,46.0,Bacterial Wilt
+Uttar Pradesh,Gangetic Plain,"Grand Naine, Harichhal",26,70,1125,Gangetic Alluvial,7.1,9,52.5,Frost Injury (Winter)
+Kerala,Humid Coast,"Nendran (Plantain), Palayankottan, Red Banana",28,83,2850,Laterite & Red Soil,6.0,11,33.0,Sigatoka & Wind Damage
+Assam,NE Humid Valley,"Malbhog, Jahaji, Chenichampa",25,80,2200,Acidic Alluvial Soil,5.6,7,25.0,Black Sigatoka
