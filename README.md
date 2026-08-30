@@ -15,17 +15,8 @@ Key questions addressed:
 
 ---
 
-## 📂 Repository Structure
+<img width="1536" height="738" alt="r banana 0001(heatmap)" src="https://github.com/user-attachments/assets/3f100b3b-8367-44d1-9563-7940f63e2eeb" />
 
-```text
-banana-crop-climate-analysis/
-├── data/
-│   └── banana_state_data.csv          # Raw state-level dataset
-├── scripts/
-│   └── banana_climate_analysis.R      # Data processing & pheatmap script
-├── output/
-│   └── banana_yield_heatmap.png       # Generated publication-ready heatmap
-└── README.md                          # Project documentation
 
 
 
