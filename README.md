@@ -1,5 +1,36 @@
-project..1
-# Automated Exploratory Data Analysis Pipeline in R
+
+# pr..1:-   🍌 Banana Crop Climate & Yield Analysis
+
+An agronomic data science project analyzing state-wise banana (*Musa* spp.) yield productivity across key climatic and soil parameters in India using **R** and **`pheatmap`**.
+
+---
+
+## 📌 Project Overview
+This repository explores how variations in climatic metrics (temperature, humidity, annual rainfall, wind speed) and soil conditions (pH) impact average banana yields (Tons/Hectare) across major producing states in India.
+
+Key questions addressed:
+* How does soil pH correlate with banana productivity?
+* Which states cluster together based on similar climatic profiles?
+* What environmental factors limit yield performance in high-rainfall zones?
+
+---
+
+## 📂 Repository Structure
+
+```text
+banana-crop-climate-analysis/
+├── data/
+│   └── banana_state_data.csv          # Raw state-level dataset
+├── scripts/
+│   └── banana_climate_analysis.R      # Data processing & pheatmap script
+├── output/
+│   └── banana_yield_heatmap.png       # Generated publication-ready heatmap
+└── README.md                          # Project documentation
+
+
+
+
+# pr..2 Automated Exploratory Data Analysis Pipeline in R
 
 ## Overview
 An automated R workflow designed to streamline data cleaning, summary statistics calculation, and multi-parametric visualization for complex biological datasets (1,200 observations across 14 physiological metrics).
