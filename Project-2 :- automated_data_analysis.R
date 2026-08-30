@@ -1,10 +1,7 @@
-# ==============================================================================
-# Description: Automates data cleaning, summary metrics, and plot generation
-# ==============================================================================
 
 
 
-# 1. Load Required Libraries
+#  Load Required Libraries
 if (!require("ggplot2")) install.packages("ggplot2")
 if (!require("dplyr")) install.packages("dplyr")
 if (!require("tidyr")) install.packages("tidyr")
@@ -17,15 +14,11 @@ library(tidyr)
 
 
 
-# 2. Load Dataset
+
 # Update path as per your data file----⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓----
 file_path <- "C:/Users/HP/Downloads/plant_health_data.csv"
 data_raw <- read.csv(file_path)
 
-
-# ==============================================================================
-# PHASE 1: DATA INSPECTION & CLEANING
-# ==============================================================================
 
 
 
@@ -48,9 +41,7 @@ categorical_cols <- data_clean %>% select(where(~ is.character(.x) || is.factor(
 cat("Numeric Variables Found:", colnames(numeric_cols), "\n")
 cat("Categorical Variables Found:", colnames(categorical_cols), "\n\n")
 
-# ==============================================================================
-# PHASE 2: AUTOMATED STATISTICAL SUMMARY
-# ==============================================================================
+
 
 
 
@@ -78,9 +69,7 @@ print(summary_stats)
 
 
 
-# ==============================================================================
-# PHASE 3: AUTOMATED VISUALIZATION GENERATION
-# ==============================================================================
+
 
 # Reshape data into long format
 data_long <- data_clean %>%
@@ -92,7 +81,8 @@ data_long <- data_clean %>%
 
 
 
-# Plot 1: Combined Density Distribution Plot for all numeric parameters
+# Plot 1
+
 p1 <- ggplot(data_long, aes(x = Value, fill = Variable)) +
   geom_density(alpha = 0.5) +
   facet_wrap(~ Variable, scales = "free") +
@@ -108,7 +98,8 @@ p1 <- ggplot(data_long, aes(x = Value, fill = Variable)) +
 print(p1)
 
 
-# Plot 2: Boxplots grouped by a categorical status 
+# Plot 2
+
 if ("Plant_Health_Status" %in% colnames(data_clean)) {
   p2 <- ggplot(data_long, aes(x = Plant_Health_Status, y = Value, fill = Plant_Health_Status)) +
     geom_boxplot(alpha = 0.7, outlier.shape = NA) +
